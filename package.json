@@ -1,0 +1,26 @@
+{
+  "name": "aws-lambda-node-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/lambda.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "aws-sdk": "^2.1536.0",
+    "axios": "^1.6.5",
+    "json2csv": "^6.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/json2csv": "^5.0.7",
+    "@types/node": "^20.11.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
